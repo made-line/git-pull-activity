@@ -21,18 +21,21 @@ end
 # partner should uncomment the other. Git will merge the two
 # sets of changes together.
 
-# def robot_noise
-#   puts "beep boop"
-# end
+def robot_noise
+  puts "beep boop"
+end
 
 def train_noise
   puts "choo choo"
 end
+#def train_noise
+#  puts "choo choo"
+#end
 
 # Task 4: Merge Conflict
 # Both partners should modify the same line in different ways.
 # Git doesn't know what to do in this case, so you'll have to
 # merge the two versions by hand.
 def clock_noise
-  puts "tock"
-end
+   puts "tick tock"
+ end
